@@ -1,0 +1,14 @@
+# Environment variables
+.env*
+
+# Node dependencies & build artifacts (safety net)
+node_modules/
+.next/
+dist/
+build/
+
+# 3D models & internal assets (safety net)
+*.glb
+*.gltf
+*.bin
+
